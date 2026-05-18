@@ -1,4 +1,4 @@
-# 🛡️ GateKeeper
+# GateKeeper
 
 **SimPy Tabanlı Ağ Geçidi Trafik ve Güvenlik Simülasyonu**
 
@@ -7,7 +7,11 @@ Benzetim Programları Dersi | 2025–2026 Akademik Yılı
 
 ---
 
-## 📌 Proje Hakkında
+![Proje](proje.png)
+
+---
+
+## Proje Hakkında
 
 GateKeeper, sınırlı kapasiteli bir ağ geçidinde farklı öncelik seviyelerine sahip paketlerin nasıl yönetildiğini simüle eden bir ayrık olay simülasyonu (DES) projesidir. Katmanlı bir drop politikası uygulayarak, yük altında kritik trafiğin korunup korunmadığını test eder.
 
@@ -17,7 +21,7 @@ Gerçek hayatta ağ geçitleri sınırlı kapasiteye sahiptir. Trafik yoğunlaş
 
 ---
 
-## 🗂️ Paket Türleri
+## Paket Türleri
 
 | Paket Türü | Öncelik | Ort. Geliş Aralığı | Açıklama |
 |------------|---------|---------------------|----------|
@@ -29,7 +33,7 @@ Gerçek hayatta ağ geçitleri sınırlı kapasiteye sahiptir. Trafik yoğunlaş
 
 ---
 
-## ⚙️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 | Teknoloji | Kullanım Amacı |
 |-----------|---------------|
@@ -42,7 +46,7 @@ Gerçek hayatta ağ geçitleri sınırlı kapasiteye sahiptir. Trafik yoğunlaş
 
 ---
 
-## 🖥️ Arayüz (Streamlit)
+## Arayüz (Streamlit)
 
 Kullanıcı arayüzü üzerinden şu parametreler ayarlanabilir:
 
@@ -54,7 +58,7 @@ Kullanıcı arayüzü üzerinden şu parametreler ayarlanabilir:
 
 ---
 
-## 📊 Görselleştirmeler
+## Görselleştirmeler
 
 - **Kuyruk Doluluk Grafiği** — Zamana bağlı kuyruk dalgalanması ve eşik çizgileri
 - **Isı Haritası (Heatmap)** — Paket türlerine göre zaman dilimlerindeki yoğunluk
@@ -63,7 +67,7 @@ Kullanıcı arayüzü üzerinden şu parametreler ayarlanabilir:
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ```bash
 # Repoyu klonlayın
@@ -79,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## 👥 Ekip
+## Ekip
 
 | İsim | Öğrenci No |
 |------|-----------|
@@ -89,7 +93,7 @@ streamlit run app.py
 
 ---
 
-## 📚 Kaynaklar
+## Kaynaklar
 
 - [SimPy Documentation](https://simpy.readthedocs.io)
 - [Streamlit Documentation](https://docs.streamlit.io)
